@@ -1,0 +1,120 @@
+<div style="padding: 20px;" >
+    <div  class="lesson">
+        <div>
+          <h1 >درس:الإصطياد بالمطاردة</h1>
+        </div>
+    </div>
+      
+        <div style="text-align: right;">
+            <h4 style="font-size: 20px;">رَتِّبْ مَرَاحِلَ الإِصْطَيَادِ بِالْمُطَارَدَةِ  </h4>
+            <div class="hunt-steps" style="text-align: right; margin-right: 30px;">
+                <p style="font-size: 18px;"><input type="number" style="width: 30px;" >  الفتك بالفريسة -</p>
+                <p  style="font-size: 18px;"><input type="number" style="width: 30px;" >  البحث عن الفريسة -</p>
+                <p  style="font-size: 18px;"><input type="number" style="width: 30px;" >  القَبْضُ عَلَى الفريسة -</p>
+                <p  style="font-size: 18px;"><input type="number" style="width: 30px;" >  اقْتِفَاء أَثر الفريسة والاقتراب مِنْهَا -</p>
+    
+              </div>
+           
+             </div>
+
+             <div style="text-align: right;">
+                <h4 style="font-size: 20px;">رتب مَرَاحِلَ اسْتِهْلَاكِ الْحَيَوَانِ الْمُطَارِدِ     </h4>
+                <div class="hunt-steps" style="text-align: right; margin-right: 30px;">
+                    <p  style="font-size: 18px;"><input type="number" style="width: 30px;" >  يبتلع تلك القطع -</p>
+                    <p  style="font-size: 18px;"><input type="number" style="width: 30px;" > يُمَزِّقُ الفريسة -</p>
+                    <p style="font-size: 18px;"><input type="number" style="width: 30px;" >  يَقْصُّ لَحْمَ الفَرِيسَةِ قِطَعًا صَغِيرَةً -</p>
+                   
+                  </div>
+               
+                 </div>
+
+                 <div style="text-align: right;">
+                    <h4 style="font-size: 20px;"> اكتب تحت كل صورة كيفية إستهلاك كل حيوان لفريسته   </h4>
+                    <div class="hunt-steps" style="text-align: right; margin-right: 30px;">
+                        <div class="container" style="justify-content: flex-end;">
+                            <div style="flex-direction:column; display: flex;width:300px ;margin-right:50px;margin-left:50px">
+                                 <img src="assets/image.png" style="width: 250px;height:170px" alt="">
+                                <input type="text" style="width:250px;text-align:center;margin-top:10px;">
+                            </div>
+                            <div style="flex-direction:column; display: flex;width:300px ;margin-right:50px;margin-left:50px">
+                                <img src="assets/img2.jpg" style="width: 250px;height:170px" alt="">
+                               <input type="text" style="width:250px;text-align:center;margin-top:10px;">
+                           </div>
+                           <div style="flex-direction:column; display: flex;width:350px ;margin-right:50px;margin-left:50px">
+                            <img src="assets/img3.jpg" style="width: 250px;height:170px" alt="">
+                           <input type="text" style="width:250px;text-align:center;margin-top:10px;">
+                       </div>
+                      
+                    
+                    </div>
+                      </div>
+                   
+                     </div>
+
+
+  <!-- ////////////////////////////////////// -->
+  <br>
+  <div class="dives" *ngIf="!state">
+    <button class="butt" (click)="show()">أنظر إلى الإصلاح</button>
+  </div>
+  <br><br>
+  <!-- //////////////////////////////////////////////////////////////////////// -->
+  <div *ngIf="state">
+  
+      <div class="esla7">
+        <h2 class="h2" (click)="show()">الإصلاح</h2>
+      </div>
+     
+      <div style="text-align: right;">
+        <h4 style="font-size: 20px;">رَتِّبْ مَرَاحِلَ الإِصْطَيَادِ بِالْمُطَارَدَةِ  </h4>
+        <div class="hunt-steps" style="text-align: right; margin-right: 30px;">
+            <p style="font-size: 18px;"><input type="number" style="width: 30px;border:none ;color:green;font-size:20px" value="4" > - الفتك بالفريسة</p>
+            <p  style="font-size: 18px;"><input type="number" style="width: 30px;border:none ;color:green;font-size:20px"  value="1">  البحث عن الفريسة -</p>
+            <p  style="font-size: 18px;"><input type="number" style="width: 30px;border:none ;color:green;font-size:20px"  value="3">  القَبْضُ عَلَى الفريسة- </p>
+            <p  style="font-size: 18px;"><input type="number" style="width: 30px;border:none ;color:green;font-size:20px"  value="2">  اقْتِفَاء أَثر الفريسة والاقتراب مِنْهَا -</p>
+
+          </div>
+       
+         </div>
+
+         <div style="text-align: right;">
+            <h4 style="font-size: 20px;">رتب مَرَاحِلَ اسْتِهْلَاكِ الْحَيَوَانِ الْمُطَارِدِ     </h4>
+            <div class="hunt-steps" style="text-align: right; margin-right: 30px;">
+                <p  style="font-size: 18px;"><input type="number" style="width: 30px;border:none ;color:green;font-size:20px" value="3">  يبتلع تلك القطع -</p>
+                <p  style="font-size: 18px;"><input type="number" style="width: 30px;border:none ;color:green;font-size:20px" value="1">  يُمَزِّقُ الفريسة -</p>
+                <p style="font-size: 18px;"><input type="number" style="width: 30px;border:none ;color:green;font-size:20px" value="2">  يَقْصُّ لَحْمَ الفَرِيسَةِ قِطَعًا صَغِيرَةً -</p>
+               
+              </div>
+           
+             </div>
+
+             <div style="text-align: right;">
+                <h4 style="font-size: 20px;"> اكتب تحت كل صورة كيفية إستهلاك كل حيوان لفريسته   </h4>
+                <div class="hunt-steps" style="text-align: right; margin-right: 30px;">
+                  <div class="container" style="justify-content: flex-end;">
+                    <div style="flex-direction:column; display: flex;width:300px ;margin-right:10px;margin-left:10px">
+                         <img src="assets/image.png" style="width: 270px;height:170px" alt="">
+                        <input type="text" style="width:270px;text-align:center;margin-top:10px;border:none ;color:green;font-size:19px" value=" يمزق اللحم بأنيابه و يكسر العظام بأضراسه">
+                    </div>
+                    <div style="flex-direction:column; display: flex;width:300px ;margin-right:10px;margin-left:10px">
+                        <img src="assets/img2.jpg" style="width: 270px;height:170px" alt="">
+                       <input type="text" style="width:270px;text-align:center;margin-top:10px;border:none ;color:green;font-size:20px" value="يمزق لحم الفريسة و جلدها بمنقاره الحاد">
+                   </div>
+                   <div style="flex-direction:column; display: flex;width:450px ;margin-right:10px;margin-left:10px">
+                    <img src="assets/img3.jpg" style="width: 250px;height:170px" alt="">
+                   <input type="text" style="width:250px;text-align:center;margin-top:10px;border:none ;color:green;font-size:20px" value="يقص الفريسة قطعا و يبتلعها">
+               </div>
+              
+            
+            </div>
+      
+    </div>  
+             </div></div>
+<br>
+    <div class="suiv">
+        <button class="b1" (click)="Previous()">الدرس السابق</button>
+        <button class="b2" (click)="Next()">الدرس التالي</button>
+      </div>
+
+</div>
+

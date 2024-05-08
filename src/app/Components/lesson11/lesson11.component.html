@@ -1,0 +1,57 @@
+<div style="padding: 20px;" >
+    <div  class="lesson">
+        <div>
+          <h1 >درس : التوازن البيئي  </h1>
+        </div>
+    </div>
+    <div style="text-align: right;">
+        <h3>نشاط عدد 1</h3>
+    </div>
+      <div style="text-align: right;">
+        <h4> ماهي عوامل الإنجراف؟ </h4>
+        <textarea style="width: 800px;height:40px;border-radius: 20px ;margin-right:50px;" > </textarea>
+      </div>
+      <div style="text-align: right;">
+        <h3>نشاط عدد 2</h3>
+    </div>
+      <div style="text-align: right;">
+        <h4>: أكمل بما يناسب</h4>
+       <p>للمحافظة على التوازن البيئي يجب <input type="text" style="width: 90px;margin:5px">التكاثر المفرط لعنصر بيئي <input type="text" style="width: 90px;margin:5px">بالتوازن البيئي</p>
+      </div>
+       <!-- ////////////////////////////////////// -->
+<br><br><br>
+<div class="dives" *ngIf="!state">
+  <button class="butt" (click)="show()">أنظر إلى الإصلاح</button>
+</div>
+<br><br>
+<!-- //////////////////////////////////////////////////////////////////////// -->
+<div *ngIf="state">
+
+    <div class="esla7">
+      <h2 class="h2" (click)="show()">الإصلاح</h2>
+    </div>
+    <div style="text-align: right;">
+      <h3>نشاط عدد 1</h3>
+  </div>
+    <div style="text-align: right;">
+      <h4> ماهي عوامل الإنجراف؟ </h4>
+      <p style="font-size: 22px;margin:20px">هطول الأمطار والفيضانات / الرياح /
+
+        الممارسات الزراعية / الرعي الجائر / قطع الأشجار </p>
+    </div>
+    <div style="text-align: right;">
+      <h3>نشاط عدد 2</h3>
+  </div>
+    <div style="text-align: right;">
+      <h4>: أكمل بما يناسب</h4>
+     <p style="font-size: 20px;margin-right:20px">للمحافظة على التوازن البيئي يجب 
+      <input value="الحد من التلوث  " type="text" style="width: 100px;margin:5px;color:green;border:none;font-size:20px">
+      التكاثر المفرط لعنصر بيئي <input value="إنشاء محميات" type="text" style="width: 100px;margin:5px;color:green;border:none;font-size:20px">بالتوازن البيئي</p>
+    </div>
+</div>
+</div>
+      <div class="suiv">
+        <button class="b1" (click)="Previous()">الدرس السابق</button>
+        <button class="b2" (click)="Next()">الدرس التالي</button>
+      </div>
+    

@@ -1,0 +1,69 @@
+<div style="padding: 20px;" >
+<div  class="lesson">
+    <div>
+      <h1>درس:  الماء في الطبيعة</h1>
+    </div>
+</div>
+    <div style="text-align: right;">
+        <h3>نشاط عدد1 </h3>
+    </div>
+    <div style="text-align: right;">
+        <h4> كيف تتكون الأمطار ؟ </h4>
+        <textarea style="width: 800px;height:100px;border-radius: 20px ;margin-right:50px;" > </textarea>
+    </div>
+
+    <div style="text-align: right;">
+        <h3>نشاط عدد2 </h3>
+    </div>
+    <div style="text-align: right; ">
+        <h4> أكمل الفراغات</h4>
+        <div style="margin-right:50px;">
+        <p>:يحصل الإنسان على إحتياجاته المائية من مصدرين أساسيين </p>
+         <p >    .<input type="text" style="width: 90px;margin:5px">مياه <input type="text" style="width: 90px;margin:5px"> مثل </p>
+         <p >    .<input type="text" style="width: 90px;margin:5px">      و مياه<input type="text" style="width: 90px;margin:5px"> مثل </p>
+        </div>
+    </div>
+
+  <!-- ////////////////////////////////////// -->
+  <br><br><br>
+  <div class="dives" *ngIf="!state">
+    <button class="butt" (click)="show()">أنظر إلى الإصلاح</button>
+  </div>
+  <br><br>
+  <!-- //////////////////////////////////////////////////////////////////////// -->
+  <div *ngIf="state">
+  
+      <div class="esla7">
+        <h2 class="h2" (click)="show()">الإصلاح</h2>
+      </div>
+      <div style="text-align: right;">
+        <h3>:نشاط عدد 1</h3>
+        <div style="text-align: right;">
+            <h4> كيف تتكون الأمطار ؟ </h4></div>
+        <div style="margin: 30px;">
+  
+        <p style="font-size: 23px;">تأتي كل الأمطار من مزيج من شيئين: الرطوبة في الهواء والتي تكون عادة على شكل غيوم، وتيارات الهواء التي تتحرك لأعلى، وعندما يرتفع الهواء الرطب عبر السحابة يبرد ويتحول الماء الموجود فيه إلى قطرات مطر صغيرة </p>
+         </div>
+           </div>
+           <div style="text-align: right;">
+            <h3>:نشاط عدد 2</h3>
+            <div style="text-align: right; ">
+                <h4> أكمل الفراغات</h4></div>
+            <div style="margin: 30px;">
+      
+            <p style="font-size: 23px;">:يحصل الإنسان على احتياجاته المائية من مصدرين أساسيين وهما  </p>
+            <div style="margin-right: 20px;">
+                <p style="font-size: 23px;">   المياه <strong style="color: green;">السطحية</strong> مثل <strong style="color: green;">   مياه الأنهار والبحيرات ومجاري الوديان</strong>-</p>
+                <p style="font-size: 23px;">   المياه  <strong style="color: green;">الأرضية </strong> مثل <strong style="color: green;">   الآبار والينابيع والكهوف </strong>-</p>
+            </div>
+            </div>
+
+
+        </div>
+  </div>
+      <br>
+<div class="suiv">
+    <button class="b1" (click)="Previous()">الدرس السابق</button>
+    <button class="b2" (click)="Next()">الدرس التالي</button>
+  </div>
+

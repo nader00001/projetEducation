@@ -1,0 +1,90 @@
+<div style="padding: 20px;" >
+    <div  class="lesson">
+        <div>
+          <h1>درس : الظروف الملائمة للإنبات</h1>
+        </div>
+    </div>
+    <div style="text-align: right;">
+        <h3>نشاط عدد 1</h3>
+    </div>
+      <div style="text-align: right;">
+        <h4>. أذكر بعض النباتات التي تتكاثر بالبذور</h4>
+        <textarea style="width: 800px;height:100px;border-radius: 20px ;margin-right:50px;" > </textarea>
+      </div>
+      <div style="text-align: right;">
+        <h3>نشاط عدد 2</h3>
+    </div>
+      <div style="text-align: right;">
+        <h4>. أكمل بصالحة للزراعة أو غير صالحة للزراعة </h4>
+        <div style="margin-right:50px;">
+        <p >    .<input type="text" style="margin:10px;color:green;font-size:20px ;width: 100px">:البذرة الجافة - </p>
+        <p >    .<input type="text" style="margin:10px;color:green;font-size:20px ;width: 100px">:البذرة السليمة - </p>
+        <p >    .<input type="text" style="margin:10px;color:green;font-size:20px ;width: 100px">:البذرة الناضجة - </p>
+    </div>
+       </div>
+       <div style="text-align: right;">
+        <h3>نشاط عدد 3</h3>
+    </div>
+      <div style="text-align: right;">
+        <h4>. أكمل بما يناسب :</h4>
+        <div style="text-align: right;padding-right:50px">
+            <p><input type="text" style="margin:10px;color:green;font-size:20px ;width: 100px">إن إنبات البذرة يتطلب توفر <input type="text" style="margin:10px;color:green;font-size:20px ;width: 100px"> و <input type="text" style="margin:10px;color:green;font-size:20px ;width: 100px"> و<input type="text" style="margin:10px;color:green;font-size:20px ;width: 100px"> و  </p>
+            <button class="enregister">أسجل الإجابة</button>
+        </div>
+    </div>
+       </div>
+<!-- ////////////////////////////////////// -->
+<br><br><br>
+<div class="dives" *ngIf="!state">
+  <button class="butt" (click)="show()">أنظر إلى الإصلاح</button>
+</div>
+<br><br>
+<!-- //////////////////////////////////////////////////////////////////////// -->
+<div *ngIf="state">
+
+    <div class="esla7">
+      <h2 class="h2" (click)="show()">الإصلاح</h2>
+    </div>
+    <div style="text-align: right;">
+      <h3>نشاط عدد 1</h3>
+  </div>
+    <div style="text-align: right;">
+      <h4>. أذكر بعض النباتات التي تتكاثر بالبذور</h4>
+      <p style="font-size: 23px;" > ...النباتات التي تتكاثر بالبذور نذكر منها الفاصوليا، الحمص، الفول، الفجل، الدلاع   </p>
+    </div>
+    <div style="text-align: right;">
+      <h3>نشاط عدد 2</h3>
+  </div>
+    <div style="text-align: right;">
+      <h4>. أكمل بصالحة للزراعة أو غير صالحة للزراعة </h4>
+      <div style="margin-right:50px;">
+      <p >   <input type="text" value="غير صالحة" style="margin:10px;color:green;border:none;font-size:20px ;width: 100px">:البذرة الجافة - </p>
+      <p >    <input type="text" value=" صالحة" style="margin:10px;color:green;border:none;font-size:20px ;width: 80px">:البذرة السليمة - </p>
+      <p >   <input type="text" value="غير صالحة" style="margin:10px;color:green;border:none;font-size:20px ;width: 100px">:البذرة الناضجة - </p>
+  </div>
+     </div>
+     <div style="text-align: right;">
+      <h3>نشاط عدد 3</h3>
+  </div>
+    <div style="text-align: right;">
+      <h4>: أكمل بما يناسب </h4>
+      <div style="text-align: right;padding-right:50px">
+        <p style="font-size: 22px;"> 
+          .إن إنبات البذرة يتطلب توفر <strong style=" color:green;font-size:25PX" >  بذرة سليمة </strong>و    
+          <strong style=" color:green;font: size 25PX;">توفر الماء</strong> و  <strong style=" color:green;font-size:25px">توفر الحرارة   </strong> 
+          و <strong style=" color:green;font-size:25px">توفر الهواء   </strong>  و     
+          <strong style=" color:green;font-size:25px">توفر الضوء   </strong>   
+       </p>
+
+                 <button class="enregister">أسجل الإجابة</button>
+      </div>
+  </div>
+
+
+</div>
+<!-- ////////////////////////////////////////////////// -->
+       <div class="suiv">
+        <button class="b1" (click)="Previous()">الدرس السابق</button>
+        <button class="b2" (click)="Next()">الدرس التالي</button>
+      </div>
+    

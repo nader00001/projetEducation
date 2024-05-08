@@ -1,0 +1,142 @@
+<div style="padding: 20px;" >
+<div  class="lesson">
+    <div>
+      <h1 >درس : الاصطياد بالحيلة و الفخ</h1>
+    </div>
+</div>
+    <div style="text-align: right;">
+        <h3>:تمرين عدد 1  </h3>
+    </div>
+    <div style="text-align: right;">
+        <h4> : تأمل الصور و فسر سلوك العنكبوت</h4>
+    </div>
+
+    <div class="container" style=" justify-content: flex-end; margin-right:50px">
+    
+        <div class="div1">
+          <h5 style="text-align: right;" >اجب على السؤال هنا</h5>
+          <input class="input1"  >
+        </div>
+        <img src="assets/lesson4img1.jpeg" style="height: 200px;" alt="">
+    </div>
+    <br>
+
+    <div style="text-align: right;">
+        <h4> تمثل الصورتان التاليتين صورة "دعموص" ماهي طريقته للحصول على غذائه ؟</h4>
+    </div>
+    <div class="container" style=" justify-content: flex-end; margin-right:50px">
+           <div class="div1">
+             <h5 style="text-align: right;" >اجب على السؤال هنا</h5>
+              <input class="input1"  >
+          </div>
+          <div style="text-align: right;">
+            <img src="assets/lesson4img2.jpeg" style="width: 350px;height:200px;" alt="">
+           <img src="assets/lesson4img3.jpeg" style="width: 350px;height:200px;padding-left:20px;" alt="">
+          </div>
+       </div>
+
+       <br>
+
+       <div style="text-align: right;">
+        <h3>:تمرين عدد 2  </h3>
+      </div>
+      <div style="text-align: right;">
+        <h4> :أشطب ما لا يناسب الإطصياد بالحيلة و الفخ عند الدعموص </h4>
+      </div>
+       <div style="text-align: right; padding-right:50px">
+            <p [ngStyle]="{ 'text-decoration': supp1 ? 'line-through' : 'none' }">  <button (click)="supp(1)" class="supp" >أشطب</button>.يحفر الدعموص حفرة في شكل قاع -</p>
+            <p   [ngStyle]="{ 'text-decoration': supp2 ? 'line-through' : 'none' }"> <button (click)="supp(2)" class="supp" >أشطب</button>.يطمر الدعموص كل جسمه ما عدا قرونها الرأسية -</p>
+            <p  [ngStyle]="{ 'text-decoration': supp3 ? 'line-through' : 'none' }"> <button (click)="supp(3)" class="supp" >أشطب</button>.يمكث الدعموص بلا حراك يترقب وقوع الفريسة -</p>
+            <p  [ngStyle]="{ 'text-decoration': supp4 ? 'line-through' : 'none' }"> <button (click)="supp(4)" class="supp" >أشطب</button>.يقترب الدعموص من فريسته ثم يبتلعها -</p>
+            <p  [ngStyle]="{ 'text-decoration': supp5 ? 'line-through' : 'none' }"> <button (click)="supp(5)" class="supp" >أشطب</button>.يسرع الدعموص فيقبض على الفريسة -</p>
+      </div>
+
+<!-- ///////////////////////////////////////// -->
+      <div style="text-align: right;">
+        <h3>:تمرين عدد 3  </h3>
+        
+      </div>
+      <div style="text-align: right;">
+        <h4> أكمل الفرغات بالكلمات بالكلمات التالية : يشلها /حساء/ العنكبوت/يمتص/الرأسية</h4>
+      </div>
+      <div style="text-align: right;padding-right:50px">
+        <p>.يشك<input type="text" style="width: 90px;margin:5px">فريسته بواسطة قرونه<input type="text" style="width: 90px;margin:5px">ف <input type="text" style="width: 90px;margin:5px"> ثم<input type="text" style="width: 90px;margin:5px">ما بداخل جسمها على شكل <input type="text" style="width: 90px;margin:5px">فتبقى الفريسة قشرة فارغة عالقة بنسيجها</p>
+        <button class="enregister">أسجل الإجابة</button>
+    </div>
+  <div>
+
+  </div>
+  <!-- ////////////////////////////////////// -->
+<br><br><br>
+<div class="dives" *ngIf="!state">
+  <button class="butt" (click)="show()">أنظر إلى الإصلاح</button>
+</div>
+<br><br>
+
+<!-- //////////////////////////////////////////////////////////////////////// -->
+<div *ngIf="state">
+
+<div class="esla7">
+  <h2 class="h2" (click)="show()">الإصلاح</h2>
+</div>
+<div style="text-align: right;">
+  <h3>:تمرين عدد 1  </h3>
+  <div style="text-align: right;">
+    <h4> : تأمل الصور و فسر سلوك العنكبوت</h4>
+</div>
+  <div style="margin: 30px;">
+  <p style="font-size: 22px;"><strong> أ) </strong> تنصب العنكبوت في قلب البيت ،فإذا ارتطمت حشرة طائرة ذبابة كانت
+     او فراشة بالنسيج،إلتصقت به و أصبح من المستحيل عليها التخلص
+      منه لأن الخيوط تشتمل على مادة لزجة عالقة بها تشد أعضاء الفريسة و توقعها في 
+     الفخ فتندفق صوبها العنكبوت و تنقض عليها عضا حتى تشل حركتها بواسطة قرونها 
+     الرأسية التي تفرز مادة سامة ثم تحقن عصارات هاضمة داخل الجثة تحدث تميعا 
+     لكامل هذه الأعضاء و تجعل منها مادة تشبه الحساء فتتولى إثر ذلك إمتصاصها 
+      على أقساط فتصبح الحشرة قشرة خارجية فارغة تبقى عالقة بخيوط العنكبوت</p>
+    </div>
+    <div style="text-align: right;">
+      <h4> تمثل الصورتان التاليتين صورة "دعموص" ماهي طريقته للحصول على غذائه ؟</h4>
+  </div>
+    <div style="margin: 30px;">
+      <p style="font-size: 22px;"><strong> ب) </strong>الدعموص حيوان مفترس يصيد الحيوانات الصغيرة و خاصة 
+        منها النمل ،يعيش في الأرض حيث يحفر حفرة قمعية مستعملا
+         في ذلك فكوكا قوية على شكل كلابتين يستخدمهما كمعزقة.
+        عند الانتهاء من حفر الحفرة ينغمس الدعموص في الرمل في قعر الحفرة العميقة فيردم كامل جسمه ما عدا 
+        الكلابين و يبقى بلا حراك إلى أن تقع نملة في فخه فيسارع بالقبض عليها و يغرز فيها كلابتيه
+         مفرزا مادة سامة تشل حركتها ثم يحقن داخل جسم النملة عصارات هاضمة تذيب كل أعضاء الجسم 
+        الداخلية التي تصبح مادة سائلة يمتصها ثم يلقي قشرة الجثة الفريسة خارج الفخ القمعي </p>
+        </div>
+  
+
+
+<div style="text-align: right;">
+  <h3>:تمرين عدد 2  </h3>
+  <div style="margin: 30px;">
+ <p style="font-size: 22px;">يشطب الجملة الثانية و الرابعة</p>
+  </div>
+  </div>
+
+  <div style="text-align: right;">
+    <h3>:تمرين عدد 3  </h3>
+    <div style="text-align: right;">
+      <h4> أكمل الفرغات بالكلمات بالكلمات التالية : يشلها /حساء/ العنكبوت/يمتص/الرأسية</h4>
+    </div>
+    <div style="margin: 30px;">
+   <p style="font-size: 22px;"> 
+     .يشك <strong style=" color:green;font-size:20px" >  العنكبوت </strong>فريسته بواسطة قرونه  
+     <strong style=" color:green;font-size:20px">الرأسية</strong> ف  <strong style=" color:green;font-size:20px">يشلها   </strong> 
+     ثم <strong style=" color:green;font-size:20px">يمتص   </strong> ما بداخل جسمها على شكل 
+     <strong style=" color:green;font-size:20px">حساء   </strong> فتبقى الفريسة قشرة فارغة عالقة بنسيجها
+  </p>
+    </div>
+    </div>
+<br>
+
+</div>
+</div>
+<br>
+  <div class="suiv">
+    <button class="b1" (click)="Previous()">الدرس السابق</button>
+    <button class="b2" (click)="Next()">الدرس التالي</button>
+  </div>
+
+</div>

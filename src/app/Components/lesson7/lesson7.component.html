@@ -1,0 +1,81 @@
+<div style="padding: 20px;" >
+    <div  class="lesson">
+        <div>
+          <h1 >درس : الماء الصالح للشراب و كيفية الحصول عليه</h1>
+        </div>
+    </div>
+    <div style="text-align: right;">
+        <h3>تمرين عدد 1 </h3>
+    </div>
+    <div style="text-align: right;">
+        <h4> أذكر بعض المياه التي تكون غير صالحة للشرب</h4>
+        <textarea style="width: 800px;height:100px;border-radius: 20px ;margin-right:50px;" > </textarea>
+    </div>
+    <div style="text-align: right;">
+        <h3>تمرين عدد 2 </h3>
+    </div>
+    <div style="text-align: right;">
+        <h4>كيف يكون الماء صالحا للشرب ؟</h4>
+        <textarea style="width: 800px;height:100px;border-radius: 20px ;margin-right:50px;" > </textarea>
+    </div>
+    <div style="text-align: right;">
+        <h3>تمرين عدد 3 </h3>
+    </div>
+    <div style="text-align: right;">
+        <h4>ماهي المراحل التي نقوم بها للحصول على ماء صالح للشرب ؟</h4>
+      <h4>  <input type="text" name="" id=""> : 3 <input type="text" name="" id=""> :  2  <input type="text" name="" id=""> : 1 </h4>
+     
+     
+    </div>
+
+
+ <!-- ////////////////////////////////////// -->
+ <br><br><br>
+ <div class="dives" *ngIf="!state">
+   <button class="butt" (click)="show()">أنظر إلى الإصلاح</button>
+ </div>
+ <br><br>
+ <!-- //////////////////////////////////////////////////////////////////////// -->
+ <div *ngIf="state">
+ 
+     <div class="esla7">
+       <h2 class="h2" (click)="show()">الإصلاح</h2>
+     </div>
+     <div style="text-align: right;">
+       <h3>:  تمرين عدد 1</h3>
+       <div style="text-align: right;">
+        <h4> أذكر بعض المياه التي تكون غير صالحة للشرب</h4></div>
+       <div style="margin: 30px;">
+       
+       <p style="font-size: 23px;">-مياه الآبار غير المطابقة لمواصفات مياه الشرب، والتي لا تستوفي مواصفات مياه الشرب كذلك مياه الأنهار و البحار    </p>
+        </div>
+          </div>
+          <div style="text-align: right;">
+           <h3>:تمرين عدد 2</h3>
+           <div style="text-align: right;">
+            <h4>كيف يكون الماء صالحا للشرب ؟</h4>
+             </div>
+           <div style="margin: 30px;">
+           <p style="font-size: 23px;">   أن يكون عديم اللون وعديم الرائحة، أن يكون خاليا من الجراثيم والميكروبات ألا تزيد فيه نسبة المواد الذائبة عن حد معين، طعمة متعادل  </p>
+    
+           </div>
+       </div>
+       <div style="text-align: right;">
+        <h3>:تمرين عدد 3</h3>
+        <div style="text-align: right;">
+            <h4>ماهي المراحل التي نقوم بها للحصول على ماء صالح للشرب ؟</h4> </div>
+        <div style="margin: 30px;">
+                    
+        <h4>  <input type="text" value="الترسيب" style="border:none;font-size:20px;width:60px;color:green" > : 1  </h4>
+        <h4>  <input type="text" value="التصفية" style="border:none;font-size:20px;width:60px;color:green" > : 2 </h4>
+        <h4>  <input type="text" value="التطهير" style="border:none;font-size:20px;width:60px;color:green" > : 3 </h4>
+     
+        </div>
+    </div>
+ </div>
+<!-- ::::::::::::::::::::::::::::::::: -->
+</div>
+<div class="suiv">
+    <button class="b1" (click)="Previous()">الدرس السابق</button>
+    <button class="b2" (click)="Next()">الدرس التالي</button>
+  </div>
