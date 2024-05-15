@@ -22,6 +22,6 @@ export class Lesson11Component {
   
   Next()
   {
-    this.route.navigate(['./Lesson1']);
+    this.route.navigate(['./Lesson12']);
   }
 }

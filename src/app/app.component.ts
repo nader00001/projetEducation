@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'ProjetSiwarCyrine';
   constructor(private router: Router) {}
+  title = 'ProjetSiwarCyrine';
   isLoginPage(): boolean {
     return this.router.url === '' || this.router.url === '/';
   }
